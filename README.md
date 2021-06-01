@@ -3,8 +3,23 @@
 Authors: Albert Giang, Julian Bonnells, Tiffany Christensen;
 Date: 06/03/2021
 
+## Preprocessing Instructions
+1. Set up: Download yelp data set
+	* Download Location: https://www.yelp.com/dataset/download
+	* Files to download:
+		* yelp_academic_dataset_user.json
+		* yelp_academic_dataset_business.json
+		* yelp_academic_dataset_review.json
+2. Navigate to main pre-processing file:
+        * Preprocessing.ipynb
+3. Validate if pre-processing was successful
+	* Following files are generated:
+       		 * MA_reviews.json
+       		 * MA_users.json
+      		 * MA_restaurants.json
 
-## Directions to run: 
+## Recommender Instructions: 
+* Note: step 1 can be skipped if preprocessing instructions were already finished
 1. Set up: Download preprocessed and formatted dataset 
      * Download Location (google drive folder):      
         * https://drive.google.com/drive/folders/1zzZMU-4mTBFcn4qJNZ0cP38_0hArSysx?usp=sharing
@@ -12,7 +27,7 @@ Date: 06/03/2021
         * MA_reviews.json
         * MA_users.json
         * MA_restaurants.json
-2. Navigate to main Predictive rating and recommender algorithm
+2. Navigate to main predictive rating and recommender algorithm
      * Collab_Filtering.ipynb file
 
 ## Required Installations:
@@ -25,7 +40,6 @@ Date: 06/03/2021
 ## Repository Navigation:
 1) Preprocessing.ipynb
 	- This file processes the raw yelp dataset and filters out reviews, users, and businesses for a specific state
-        - The full Yelp dataset can be found here: https://www.yelp.com/dataset/download
 2) recommender_down_select.ipynb
 	- This file opens the preprocessed dataset and runs a gridsearch using different predictive rating algorithms to determine the best hyperparameters for each algorithm
         - A k-folds of 5 cross-validation was ran for each algorithm with their best hyperparameters to determine the algorithm with the lowest RSME
