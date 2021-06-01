@@ -1,5 +1,6 @@
-# Collaborative Filtering Algorithm
-Authors: Albert Giang, Julian Bonnells, Tiffany Christensen
+# Yelp On the Go!
+## Collaborative Filtering Application
+Authors: Albert Giang, Julian Bonnells, Tiffany Christensen;
 Date: 06/03/2021
 
 
