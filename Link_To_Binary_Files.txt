@@ -1,0 +1,16 @@
+Binary files need to run the Preprocessing file:
+yelp_academic_dataset_user.json
+yelp_academic_dataset_business.json
+yelp_academic_dataset_review.json
+
+Location of above files: 
+https://www.yelp.com/dataset/download
+
+-----------------------------------------------------------
+Binary files needed to run The down select file and Collaborative Filtering file:
+MA_reviews.json
+MA_users.json
+MA_restaurants.json
+
+Location of above files: 
+https://drive.google.com/drive/folders/1zzZMU-4mTBFcn4qJNZ0cP38_0hArSysx?usp=sharing
