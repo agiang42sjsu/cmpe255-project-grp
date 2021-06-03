@@ -15,7 +15,7 @@ Date: 06/03/2021
 	- This file processes the raw yelp dataset and filters out reviews, users, and businesses for a specific state
 2) recommender_down_select.ipynb
 	- This file opens the preprocessed dataset and runs a gridsearch using different predictive rating algorithms to determine the best hyperparameters for each algorithm
-        - A k-folds of 5 cross-validation was ran for each algorithm with their best hyperparameters to determine the algorithm with the lowest RSME
+        - A k-folds of 5 cross-validation was ran for each algorithm with their best hyperparameters to determine the algorithm with the lowest RMSE
         - That algorithm (SVD++ in this case) was then chosen to be used in the Collab_Filtering.ipynb file
 	- Much of the code is commented out with a summary of the gridsearch output given after each code block. 
         - This code takes a long time to run and was only needed to be ran once
