@@ -40,6 +40,20 @@ Date: 06/03/2021
        		 * MA_users.json
       		 * MA_restaurants.json
 
+## Recommender Down-Select Instructions: 
+* Note: step 1 can be skipped if preprocessing instructions were already finished
+1. Set up: Download preprocessed and formatted dataset 
+     * Download Location (google drive folder):      
+        * https://drive.google.com/drive/folders/1zzZMU-4mTBFcn4qJNZ0cP38_0hArSysx?usp=sharing
+     * Files to Download:
+        * MA_reviews.json
+        * MA_users.json
+        * MA_restaurants.json
+2. Navigate to the down select algorithm
+     * recommender_down_select.ipynb
+3. Grid Search blocks of code are commented out due to how long they take to run. Feel free to uncomment all lines to run it.
+     * The output of each gridsearch is given in the backup data section at the end of the file.
+     
 ## Recommender Instructions: 
 * Note: step 1 can be skipped if preprocessing instructions were already finished
 1. Set up: Download preprocessed and formatted dataset 
